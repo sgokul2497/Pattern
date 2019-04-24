@@ -1,0 +1,61 @@
+/**
+ * STARTS WITH FIRST LINE
+ * NEXT LAST LINE
+ * SIMULTANEOUSLY PRINT FIRST AND LAST LINE
+ * 
+ * **/
+
+import java.util.*;
+public class SquarePattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc=new Scanner(System.in);
+System.out.print("ENTER THE NO.  ");
+int n=sc.nextInt();
+int[][] arr=new int[n][n];
+
+int k=1;
+
+for(int i=0;i<=n/2;i++){
+	k=((i*2)*n)+1;
+	for(int j=0;j<n;j++){
+		arr[i][j]=k;
+		k++;
+	}
+}
+int l=0,m=1;
+for(int i=n-1;i>n/2;i--){
+	k=(m*n)+1;
+	for(int j=0;j<n;j++){
+		arr[i][j]=k;
+		k++;
+	}
+	l++;
+	m=m+2;
+}
+int i=(n/2);
+if(i%2==0){
+	k=n*n;
+	for(int j=n-1;j>=0;j--){
+		arr[i][j]=k;
+		k--;
+		//System.out.printf("%3d*",arr[i][j]);
+	}
+}
+
+
+
+int j;
+for(i=0;i<n;i++){
+	for(j=0;j<n-1;j++){
+		System.out.printf("%3d*",arr[i][j]);
+	}
+	System.out.printf("%2d\n",arr[i][j]);
+	//System.out.println();
+}
+
+
+	}
+
+}
