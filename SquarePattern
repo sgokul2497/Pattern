@@ -3,7 +3,7 @@
  * NEXT LAST LINE
  * SIMULTANEOUSLY PRINT FIRST AND LAST LINE
  * 
- * **/
+ */
 
 import java.util.*;
 public class SquarePattern {
