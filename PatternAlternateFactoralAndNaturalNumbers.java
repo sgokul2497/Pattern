@@ -1,6 +1,6 @@
 /**
- * Alternate factoral and natural numbers
- * factorial starts with 0,1,1,2,3,5.....
+ * Alternate  Fibonacci Sequence and natural numbers
+ *  Fibonacci Sequence starts with 0,1,1,2,3,5.....
  * natural number starts with 1,2,3,4,5,6.....
  * the pattern is 0,1,1,2,1,3,2,4,3,5,5,6,8,7,13,8,21,9,34........
  * get the number for that particular location
@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 //import java.Math.*;
-public class PatternAlternateFactoralAndNaturalNumbers
+public class PatternAlternateFibonacciAndNaturalNumbers
 {
 	
 	public static void main(String[] args) {
